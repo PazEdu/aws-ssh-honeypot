@@ -10,5 +10,8 @@ This project deploys an **AWS-based SSH honeypot** using **Cowrie**, capturing u
 
 2️. Install Docker & Cowrie on EC2 
    ```bash
-   sudo apt update && sudo apt install -y docker.io
+ 3.  Monitor SSH Attack Attempts
+sudo docker logs -f cowrie
+4️⃣ Analyze Logs
+sudo docker exec -it cowrie cat /cowrie/log/cowrie.log  sudo apt update && sudo apt install -y docker.io
    sudo docker run -d --name cowrie -p 2222:2222 cowrie/cowrie
