@@ -1,4 +1,4 @@
-AWS SSH Honeypot with Cowrie
+AWS SSH Honeypot with Cowrie (TrapShell)
 
 Overview: This project sets up an AWS-based SSH honeypot using Cowrie, a medium-interaction honeypot that mimics an SSH server to log unauthorized access attempts. It allows for security monitoring and attacker behavior analysis.
 
